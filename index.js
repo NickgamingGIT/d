@@ -1,5 +1,7 @@
 import { Client, GatewayIntentBits } from "discord.js";
+import { config as envConfig } from "dotenv";
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
+envConfig();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
@@ -14,4 +16,4 @@ if (message.content === '!hello') {
   }
 });
 
-client.login("MTM5MTYwNjM4MjgwMDkzMjkxNQ.GxUhTH.q0-1lSl16G2wFDYsL55M9P5hVwvw9zHzqRjjAU");
+client.login(process.env.DISCORD_TOKEN);
