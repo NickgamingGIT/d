@@ -9,6 +9,9 @@ client.on('messageCreate', message => {
   if (message.content === '!ping') {
     message.reply('Pong!');
   }
+if (message.content === '!hello') {
+    message.reply('Hello!');
+  }
 });
 
-client.login("1391606382800932915");
+client.login("MTM5MTYwNjM4MjgwMDkzMjkxNQ.Gtkq_W.DwDG8SlD4wGxtA-CGlRovMBUqbviFzCoT_1Fd4");
