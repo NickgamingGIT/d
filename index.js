@@ -14,4 +14,4 @@ if (message.content === '!hello') {
   }
 });
 
-client.login("MTM5MTYwNjM4MjgwMDkzMjkxNQ.Gtkq_W.DwDG8SlD4wGxtA-CGlRovMBUqbviFzCoT_1Fd4");
+client.login("MTM5MTYwNjM4MjgwMDkzMjkxNQ.GHHSR8.D3VqNXFdeomvKBCzPvJ5OdEhpizOUqb_MUU4vU");
